@@ -41,7 +41,7 @@
 .title-underline {
 	margin: 0 auto;
 	border: solid 2px var(--hellRed);
-	width: 300px;
+	width: 30%;
 }
 html,
 body {
@@ -59,7 +59,7 @@ body {
 	color: var(--hellRed);
 	border-bottom: solid 1px var(--hellRed);
 	margin: -3em auto;
-	width: 40rem;
+	width: 60%;
 }
 
 /* ########   DESCRIPTION    ########## */
