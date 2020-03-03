@@ -99,16 +99,15 @@ body {
 #video .background-image {
 	background: center/cover no-repeat url(../images/operators_bcg.jpg);
 	background-color: var(--hellRed);
-	border-top: 100px solid transparent;
-	border-right: 0px solid var(--hellRed);
 	clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 0% 100%);
 	position: relative;
 }
 
 #video .background-image .btn {
 	position: absolute;
-	left: 40%;
-	transform: translate(0%, 40%);
+	left: 50%;
+	top: 40%;
+	transform: translate(-30%, 50%);
 	background: var(--hellRed);
 	border: 2px solid var(--pearly);
 	color: var(--pearly);
