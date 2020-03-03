@@ -52,7 +52,7 @@ body {
 }
 
 #header {
-	background: center/cover fixed url(images/banner.jpg);
+	background: center/cover fixed url(./images/banner.jpg);
 }
 
 #header h1 {
