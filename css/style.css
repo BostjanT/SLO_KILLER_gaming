@@ -52,7 +52,7 @@ body {
 }
 
 #header {
-	background: center/cover fixed url(/images/banner.jpg);
+	background: center/cover fixed url(images/banner.jpg);
 }
 
 #header h1 {
@@ -74,7 +74,7 @@ body {
 
 /* ########   OPERATORS    ########## */
 #game {
-	background: center/cover fixed url(/images/operators_bcg.jpg);
+	background: center/cover fixed url(images/operators_bcg.jpg);
 }
 
 #game .card-body p {
@@ -97,7 +97,7 @@ body {
 
 /* ######### YOUTUBE  ############ */
 #video .background-image {
-	background: center/cover no-repeat url(/images/operators_bcg.jpg);
+	background: center/cover no-repeat url(images/operators_bcg.jpg);
 	background-color: var(--hellRed);
 	border-top: 100px solid transparent;
 	border-right: 0px solid var(--hellRed);
