@@ -1,0 +1,148 @@
+:root {
+	--charlyGreen: #2a2b2e;
+	--blackCoral: #5a5a66;
+	--hellRed: #ec0b43;
+	--steelBlue: #2e86ab;
+	--pearly: #f6f7eb;
+}
+
+.hellred {
+	color: var(--hellRed);
+}
+
+.bg-green {
+	background: var(--charlyGreen);
+}
+
+.bg-coral {
+	background: var(--blackCoral);
+}
+
+.bg-blue {
+	background: var(--steelBlue);
+}
+
+.bg-red {
+	background: var(--hellRed);
+}
+
+.no-padding {
+	padding: 0;
+}
+
+.viewport-100 {
+	min-height: 100vh;
+}
+
+.viewport-60 {
+	min-height: 60vh;
+}
+
+.title-underline {
+	margin: 0 auto;
+	border: solid 2px var(--hellRed);
+	width: 300px;
+}
+html,
+body {
+	scroll-behavior: smooth;
+	background-color: var(--blackCoral);
+	padding: 0;
+	margin: 0;
+}
+
+#header {
+	background: center/cover fixed url(/images/banner.jpg);
+}
+
+#header h1 {
+	color: var(--hellRed);
+	border-bottom: solid 1px var(--hellRed);
+	margin: -3em auto;
+	width: 40rem;
+}
+
+/* ########   DESCRIPTION    ########## */
+#describeMe p {
+	margin: 10px;
+}
+
+#describeMe img {
+	height: 80%;
+	width: 80%;
+}
+
+/* ########   OPERATORS    ########## */
+#game {
+	background: center/cover fixed url(/images/operators_bcg.jpg);
+}
+
+#game .card-body p {
+	color: var(--pearly) !important;
+}
+
+#game .card {
+	box-shadow: 3px 3px 20px var(--pearly);
+}
+
+#game .card img {
+	height: 250px;
+	width: 250px;
+	margin: 0 auto;
+}
+
+#game .card .zofia {
+	width: 200px;
+}
+
+/* ######### YOUTUBE  ############ */
+#video .background-image {
+	background: center/cover no-repeat url(/images/operators_bcg.jpg);
+	background-color: var(--hellRed);
+	border-top: 100px solid transparent;
+	border-right: 0px solid var(--hellRed);
+	clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 0% 100%);
+	position: relative;
+}
+
+#video .background-image .btn {
+	position: absolute;
+	left: 40%;
+	transform: translate(0%, 40%);
+	background: var(--hellRed);
+	border: 2px solid var(--pearly);
+	color: var(--pearly);
+}
+
+#video .background-image .btn:hover {
+	background: var(--blackCoral);
+	color: var(--pearly);
+	text-decoration: none;
+}
+
+#video p {
+	background: var(--hellRed);
+	color: var(--pearly);
+}
+
+#video .btn {
+	background: var(--hellRed);
+	border: 2px solid var(--pearly);
+	color: var(--pearly);
+}
+
+#video .btn:hover {
+	background: var(--charlyGreen);
+	color: var(--steelBlue);
+	text-decoration: none;
+}
+
+/* #########   ABOUT ME  ############ */
+.about-img {
+	height: 250px;
+}
+
+#about p {
+	color: var(--pearly);
+	padding-right: 2rem;
+}
